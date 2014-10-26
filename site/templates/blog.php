@@ -1,22 +1,7 @@
 <?php snippet('header') ?>
 
 <div class="grid main">
-<?php 
-	if(param('tag')) {
-
-		  $posts = $page->children()
-		                    ->visible()
-		                    ->filterBy('tags', param('tag'), ',')
-		                    ->flip()
-		                    ->paginate(3);
-	} else {
-
-		  $posts = $page->children()
-		                    ->visible()
-		                    ->flip()
-		                    ->paginate(3);
-	}
-?>
+<?php $posts = $page->children()->visible()->flip()->paginate(3); ?>
 <div class="grid-unit-a">
 	<div  class="mid-blue block-2 ">
 		<div class="block-content">
@@ -46,15 +31,7 @@
   </div>
   
  </div>
-  <div class="tags">
-	  <?php $tagcloud = tagcloud($pages->find('blog'), array('limit' => 20)) ?>
-	  	<h3>Tags</h3>
-		<ul class="tags">
-			<?php foreach($tagcloud as $tag): ?>
-				<li><a href="<?php echo $tag->url() ?>"><?php echo $tag->name() ?></a></li>
-			<?php endforeach ?>
-		</ul> 
-  </div>
+  
 </div>
 
 <div class="grid-unit-b">	

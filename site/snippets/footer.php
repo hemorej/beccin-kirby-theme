@@ -2,9 +2,6 @@
     <span class="copyright"><?php echo kirbytext($site->copyright()) ?></span>
     <ul class="social">
     	<li>
-    		<a href="http://pinterest.com/<?php echo html($site->pintrest()) ?>" target="_blank"><img src="<?php echo url('assets/images/pintrest-sqr.png') ?>" alt="Pinterest" width="30px" height="30px"/></a>
-    	</li>
-    	<li>
     		<a href="https://twitter.com/<?php echo html($site->twitter()) ?>" target="_blank"><img src="<?php echo url('assets/images/twitter-sqr.png') ?>" alt="Twitter" width="30px" height="30px"/></a>
     	</li>
     	<li>

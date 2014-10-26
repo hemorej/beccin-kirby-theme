@@ -1,18 +1,4 @@
 <?php 
-// see if this post has a video field
-// if we find the video field, diplay the video
-if ($project->vimeo()) :?>
-	<?php $url = $project->vimeo(); ?>
-	<div class="video">
-	<?php echo vimeo($url); ?>
-	</div>
-<?php elseif ($project->youtube()) :?>
-	<?php $url = $project->youtube(); ?>
-	<div class="video">
-	<?php echo youtube($url); ?>
-	</div>
-<? else: ?>
-<?php
 
 // find the portfolio page and get the children, shuffle them and limit to only 12 results.
 $images = $project->images(); 
@@ -25,5 +11,4 @@ $images = $project->images();
     <?php endif; ?>
     <?php endforeach ?>      
 	</ul>     
-<?php endif; ?>
     
