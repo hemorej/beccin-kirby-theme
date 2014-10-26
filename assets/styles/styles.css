@@ -104,19 +104,19 @@ nav.primary-nav li a {
 }
 
 nav.primary-nav ul li:nth-child(1) a {
-	color:  #003244;
+	color:  #e58e00;
 }
 
 nav.primary-nav ul li:nth-child(2) a{
-	color:  #007CAB;
+	color:  #ffa819;
 }
 
 nav.primary-nav ul li:nth-child(3) a {
-	color:  #00AEEF;
+	color:  #ffbb4c;
 }
 
 nav.primary-nav ul li:nth-child(4) a {
-	color:  #90D7EC;
+	color:  #ffcf7f;
 }
 
 /* Blocks */
@@ -139,7 +139,7 @@ nav.primary-nav ul li:nth-child(4) a {
 	width: 50%;
 	height: 100%;
 	float: left;
-	background-color: #007CAB;
+	background-color: #ffa819;
 }
 
 img.project:hover {
@@ -163,23 +163,23 @@ img.project:hover {
 }
 
 .dark-blue {
-	background-color: #003244;
+	background-color: #e58e00;
 	color: #ffffff;
 }
 
 .mid-blue {
-	background-color: #007CAB;
+	background-color: #ffa819;
 	color: #ffffff;
 
 }
 
 .light-blue {
-	background-color: #00AEEF;
+	background-color: #ffbb4c;
 	color: #ffffff;
 
 }
 .very-light-blue {
-	background-color: #90D7EC;
+	background-color: #28CCC5;
 	color: #ffffff;
 
 }
