@@ -1,9 +1,9 @@
 #Beccin Kirby Theme
-Reponsive portfolio and blog theme for Kirby. Designed by Becci Neal and built by Meyric Rawlings.
+This is a fork of the Beccin theme for Kirby, a reponsive portfolio and blog theme for Kirby. Designed by Becci Neal and built by Meyric Rawlings.
+Working to customize it to use it as personal website
 
 Uses goodness:
 
-- [Google Fonts](http://www.google.com/fonts/) - PT Sans
 - [normalize.css](http://necolas.github.io/normalize.css/)
 - [Responsive Slides](http://responsiveslides.com)
 - [fitvids.js](http://fitvidsjs.com)
