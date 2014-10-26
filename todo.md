@@ -1,0 +1,8 @@
+- check rss
+- add panel
+- change fonts
+- change logo
+- remove social stuff not used (pinterest etc) add tumblr ?
+- top menu recreate structure as before, design, illo, about, shop etc
+- for bigcartel, add icon near bottom ?
+- redo reading list ?
