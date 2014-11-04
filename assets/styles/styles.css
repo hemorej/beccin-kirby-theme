@@ -118,6 +118,9 @@ nav.primary-nav ul li:nth-child(3) a {
 nav.primary-nav ul li:nth-child(4) a {
 	color:  #ffcf7f;
 }
+nav.primary-nav ul li:nth-child(5) a {
+	color:  #ffcf7f;
+}
 
 /* Blocks */
 
@@ -139,7 +142,7 @@ nav.primary-nav ul li:nth-child(4) a {
 	width: 50%;
 	height: 100%;
 	float: left;
-	background-color: #ffa819;
+	background-color: #fed97c;
 }
 
 img.project:hover {
@@ -163,18 +166,18 @@ img.project:hover {
 }
 
 .dark-blue {
-	background-color: #e58e00;
+	background-color: #febd16;
 	color: #ffffff;
 }
 
 .mid-blue {
-	background-color: #ffa819;
+	background-color: #fecb49;
 	color: #ffffff;
 
 }
 
 .light-blue {
-	background-color: #ffbb4c;
+	background-color: #fed97c;
 	color: #ffffff;
 
 }
