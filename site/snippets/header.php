@@ -10,6 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" type="image/x-icon"  href="<?php echo url('assets/images/favicon.ico') ?>">
+  <link rel="stylesheet" href="assets/styles/icons.css" />
   <link rel="alternate" type="application/rss+xml" href="<?php echo url('feed') ?>" title="Feed | <?php echo html($site->title()) ?>" />
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <?php echo css('assets/styles/normalize.css') ?>

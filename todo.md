@@ -1,5 +1,3 @@
 - change fonts
 - change logo
-- remove social stuff not used (pinterest etc) add tumblr ?
-- for bigcartel, add icon near bottom ?
 - redo reading list ?
