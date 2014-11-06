@@ -7,6 +7,7 @@
               <li><small><a href="http://beard-and-glasses.tumblr.com/" target=_blank><i class="icon-tumblr"></i></a></small></li>
               <li><small><a href="http://codepen.io/jerome_a_/" target=_blank><i class="icon-codepen"></i></a></small></li>
               <li><small><a href="http://www.linkedin.com/profile/view?id=46684210" target=_blank><i class="icon-linkedin"></i></a></small></li>
+              <li><small><a href="http://jeromearfouche.bigcartel.com/" target=_blank><i class="icon-basket"></i></a></small></li>
               <li><small><a href="mailto:info@jerome-arfouche.com" target=_blank><i class="icon-mail"></i></a></small></li>
     </ul>
   </footer>
