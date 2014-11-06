@@ -1,3 +1,4 @@
+- responsive image header
 - change fonts
-- change logo
-- redo reading list ?
+- reading list: add jpg for hover
+- add next item link
