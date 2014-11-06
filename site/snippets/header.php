@@ -9,12 +9,13 @@
   <meta name="robots" content="index, follow" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <link rel="icon" type="image/x-icon"  href="<?php echo url('assets/images/favicon.ico') ?>">
+  <link rel="shortcut icon" type="image/x-icon"  href="<?php echo url('assets/images/favicon.ico') ?>">
+  <link rel="apple-touch-icon" sizes="72x72" href="<?php echo url('assets/images/apple-touch-icon-72x72.png') ?>" />
+  <link rel="apple-touch-icon" sizes="114x114" href="<?php echo url('assets/images/apple-touch-icon-114x114.png') ?>" />
   <link rel="stylesheet" href="assets/styles/icons.css" />
   <link rel="alternate" type="application/rss+xml" href="<?php echo url('feed') ?>" title="Feed | <?php echo html($site->title()) ?>" />
-  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
   <?php echo css('assets/styles/normalize.css') ?>
-  <?php echo css('assets/fonts/PT-Sans/stylesheet.css') ?>
   <?php echo css('assets/styles/styles.css') ?>
   	<!--[if IE]>
 	   <?php echo css('assets/styles/ie.css') ?>
@@ -33,8 +34,7 @@
   	<div class="grid">
 	  	<div class="grid-unit-a">
 	  		<div class="logo">
-	   		<a href="<?php echo url() ?>"><img src="<?php echo url('assets/images/logo.png') ?>" alt="Logo" class=""/>
-</a>
+	   		<a href="<?php echo url() ?>">hemorej</a>
 	  		</div>
 	  	</div>
 	  	<div class="grid-unit-b">

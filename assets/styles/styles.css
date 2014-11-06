@@ -77,12 +77,15 @@ span.date {
 	margin-top: 20px;
 	width: 33%;
 	text-align: center;
+	border: 5px #00AEEF solid;
+	padding: 10px;
 }
 
 .logo a {
 	text-decoration: none;
 	font-size: 20px;
 	color: #00AEEF;
+	font-variant: small-caps
 }
 
 /* Primary Navigation */
@@ -504,7 +507,7 @@ span[class="ios-link"] a {
 		float: left;
     }
     .logo {
-    	text-align: left;
+    	text-align: center;
 		float: left;
 		margin-top: 15px;
 	}
