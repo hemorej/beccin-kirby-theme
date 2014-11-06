@@ -40,7 +40,7 @@
 		<span class="slide-controls"></span>
 			<div class="project-body">
 				<?php echo kirbytext($page->text()) ?>
-				<a href="<?php echo url('portfolio') ?>">&larr; Portfolio</a>
+				<a href="<?php echo $page->parent()->url() ?>">&larr; <?php echo $page->parent()->title(); ?></a>
 			</div>
 		</div>
 </div>
