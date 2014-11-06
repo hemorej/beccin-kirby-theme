@@ -1,4 +1,4 @@
-- responsive image header
 - change fonts
 - reading list: add jpg for hover
 - add next item link
+- responsive copyright bug
