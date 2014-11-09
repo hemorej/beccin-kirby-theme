@@ -1,3 +1,1 @@
-- change fonts
-- responsive copyright bug
 - reading list: add jpg for hover

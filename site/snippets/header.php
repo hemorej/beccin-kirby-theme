@@ -34,7 +34,7 @@
   	<div class="grid">
 	  	<div class="grid-unit-a">
 	  		<div class="logo">
-	   		<a href="<?php echo url() ?>">hemorej</a>
+	   		<a href="<?php echo url() ?>">jerome arfouche</a>
 	  		</div>
 	  	</div>
 	  	<div class="grid-unit-b">

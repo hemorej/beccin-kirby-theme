@@ -86,4 +86,3 @@
 </script>
 
 <?php snippet('footer') ?>
-

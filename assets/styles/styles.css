@@ -1,14 +1,35 @@
-/* Standard styles */
+@font-face{
+  font-family: 'alt-gothic';
+  src: url('../font/AlternateGotNo1D.eot');
+  src: url('../font/AlternateGotNo1D.eot?#iefix') format('embedded-opentype'),
+       url('../font/AlternateGotNo1D.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'meta';
+  src: url('../font/MetaWeb-Normal.eot');
+  src: url('../font/MetaWeb-Normal.eot?#iefix') format('embedded-opentype'),
+       url('../font/MetaWeb-Normal.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.project-body{
+	font-family: 'meta';
+}
+nav.primary-nav{
+	font-size: 1.3em
+}
+
 body {
-	font-family: 'PTSansNarrowRegular';
+	font-family: 'alt-gothic';
 	background-color: #e8e4d9;
-	letter-spacing: 1px;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	line-height: 1em;
-	letter-spacing: 2px;
 }
 
 h1 {
@@ -75,15 +96,16 @@ span.date {
 .logo {
 	margin: auto;
 	margin-top: 20px;
-	width: 33%;
+	width: 40%;
 	text-align: center;
 	border: 5px #00AEEF solid;
-	padding: 10px;
+	padding: 10px 10px 15px 10px
 }
 
 .logo a {
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 2em;
+	letter-spacing: 1px;
 	color: #00AEEF;
 	font-variant: small-caps
 }
@@ -102,8 +124,7 @@ nav.primary-nav li {
 
 nav.primary-nav li a {
 	text-decoration: none;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+	text-transform: uppercase
 }
 
 nav.primary-nav ul li:nth-child(1) a {
@@ -389,7 +410,9 @@ span[class="ios-link"] a {
 	height: auto;
 }
 
-/* Tablet Portrait */
+
+@media screen and (max-width: 500px) {ul.social li{font-size: 0.8em}}
+
 @media screen and (min-width: 500px) {
 	.block-0 {
 	    width: 25%;
@@ -454,7 +477,6 @@ span[class="ios-link"] a {
   	    float: left;
     }
     .logo {
-    	text-align: left;
 		float: left;
 		margin-top: 15px;
 	}
@@ -509,7 +531,7 @@ span[class="ios-link"] a {
     .logo {
     	text-align: center;
 		float: left;
-		margin-top: 15px;
+		margin-top: 15px
 	}
 	nav.primary-nav ul {
 		list-style-type: none;
