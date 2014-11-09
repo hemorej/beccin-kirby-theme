@@ -12,7 +12,7 @@
   <link rel="shortcut icon" type="image/x-icon"  href="<?php echo url('assets/images/favicon.ico') ?>">
   <link rel="apple-touch-icon" sizes="72x72" href="<?php echo url('assets/images/apple-touch-icon-72x72.png') ?>" />
   <link rel="apple-touch-icon" sizes="114x114" href="<?php echo url('assets/images/apple-touch-icon-114x114.png') ?>" />
-  <link rel="stylesheet" href="assets/styles/icons.css" />
+  <link rel="stylesheet" href="<?php echo url('assets/styles/icons.css') ?>" />
   <link rel="alternate" type="application/rss+xml" href="<?php echo url('feed') ?>" title="Feed | <?php echo html($site->title()) ?>" />
 
   <?php echo css('assets/styles/normalize.css') ?>
