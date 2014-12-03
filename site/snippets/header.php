@@ -29,7 +29,8 @@
   <?php echo js('assets/javascript/jquery.fitvids.min.js') ?>
 </head>
 
-<body>
+<body <?php if (isset($error)) echo 'class="error"' ?>>
+
   <header class="site">
   	<div class="grid">
 	  	<div class="grid-unit-a">
