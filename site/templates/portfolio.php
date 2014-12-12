@@ -39,9 +39,13 @@
 	<?php foreach($projects AS $project): ?>
     	<?php $thumb = $project->files()->find('thumbnail.png')->url(); ?>
     	<div class="block-project">
-    		<a href="<?php echo $project->url() ?>">
+    		<?php if("" != $project->text()){ ?>
+	    		<a href="<?php echo $project->url() ?>">
+	    			<img src="<?php echo $thumb; ?>" class="project"/>
+	    		</a>
+    		<?php }else{ ?>
     			<img src="<?php echo $thumb; ?>" class="project"/>
-    		</a>
+    		<?php }?>
     	</div>
     <?php endforeach ?>	
 </div>
@@ -50,9 +54,9 @@
 	    <div class="mid-blue block-1">
 	    	<div class="block-content">
 	    		<?php if($projects->pagination()->hasPrevPage()) : ?>
-		    		<div class="portfolio-nav previous active"><a href="<?php echo $projects->pagination()->prevPageURL(); ?>"><</a></div>
+		    		<div class="portfolio-nav previous active"><a href="<?php echo $projects->pagination()->prevPageURL(); ?>"></a></div>
 		    	<?php else : ?>
-		    		<div class="portfolio-nav previous in-active"><</div>
+		    		<div class="portfolio-nav previous in-active"></div>
 		    	<?php endif; ?>
 	    	</div>
 	  </div>
